@@ -1,0 +1,6 @@
+suites:
+    inroute:
+        namespace: package\name
+        psr4_prefix: package\name
+
+formatter.name: dot

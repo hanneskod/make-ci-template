@@ -1,0 +1,22 @@
+{
+    "name": "package/name",
+    "description": "",
+    "keywords": [""],
+    "homepage": "https://github.com/hanneskod/make-ci-template",
+    "type": "library",
+    "license": "",
+    "authors": [
+        {
+            "name": "Hannes Forsgård",
+            "email": "hannes.forsgard@fripost.org"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "package\\name\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.4"
+    }
+}
